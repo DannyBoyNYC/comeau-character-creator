@@ -1,7 +1,5 @@
 .footer {
-  /* position: absolute;
-  bottom: 0;
-  width: 100%; */
+  position: relative;
   padding: 24px;
   background: hsl(0deg, 0%, 5%);
   color: white;
