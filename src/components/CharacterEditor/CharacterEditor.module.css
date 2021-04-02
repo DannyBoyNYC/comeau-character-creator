@@ -1,15 +1,15 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
-  isolation: isolate;
 }
 
 .maxWidthWrapper {
-  max-width: 65%;
+  position: relative;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -29,12 +29,13 @@
   width: 35%;
   min-height: 500px;
   position: fixed;
-  top: 200px;
+  top: 24%;
   right: 0;
+  /* bottom: 10%; */
 }
 
 .controlColumn {
-  max-width: 512px;
+  width: 50%;
 }
 
 .perspectiveEffect {
