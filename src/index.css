@@ -2,6 +2,9 @@ html,
 body,
 #root {
   height: 100%;
+  /* isolation: isolate; */
+  overflow: auto;
+  /* background-color: gradient from hsl(195deg, 20%, 86%) to hsl(105deg, 20%, 86%); */
 }
 
 body {
@@ -12,7 +15,7 @@ body {
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
